@@ -1,0 +1,31 @@
+1.使用 express -generator 构造器
+
+2.使用express-e	ejs模板
+
+------------------搭建流程------------------
+1.初始化项目
+        npm init -y
+      
+2.全局安装
+    npm install express-generator -g
+3. 生成框架（使用的ejs模板引擎）  
+    express -e  
+
+4.安装依赖(系统根据package.json中的dev来安装依赖)
+    npm install
+------------------------自己创建修改-------------------------------
+1.注意：
+    前端所有的文件放在public中---静态资源目录
+
+2.创建controller文件夹---进行业务逻辑操作
+
+3.创建model文件见---实现数据的增删改查
+
+4.创建db文件夹---连接数据库
+
+5.创建utils -----存放封装好的工具
+
+--------------------------解读流程-----------------
+package.json-------bin/www-------app.js-----routes----controller----model---db
+
+
